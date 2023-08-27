@@ -17,4 +17,5 @@ export interface Pedido{
     productos: Array<String>;
     total: number;
     direccion: Direccion;
+    motorista: string;
 };

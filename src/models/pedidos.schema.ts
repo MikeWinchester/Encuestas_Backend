@@ -11,7 +11,8 @@ export const schema = new mongoose.Schema<Pedido>({
     hora: String,
     productos: Array<String>,
     total: Number,
-    direccion: Object
+    direccion: Object,
+    motorista: String
 });
     
 export const PedidoSchema = mongoose.model('pedidos', schema);

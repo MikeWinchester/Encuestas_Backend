@@ -37,6 +37,7 @@ export const iniciarSesion = async (req: Request, res: Response) => {
 export const agregarPedidoACarroDeCompras =async (req:Request, res: Response) => {
     const usuario = await UsuarioSchema.findById(req.params.id);
     if(usuario){
+
         const usuarioExistente = await UsuarioSchema.findByIdAndUpdate(req.params.id, {
             $push: {
                 carroDeCompras:{

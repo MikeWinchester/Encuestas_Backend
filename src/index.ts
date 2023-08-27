@@ -4,6 +4,8 @@ import { Database } from "./utils/database";
 import usuarioRouter from "./routers/usuarios.router";
 import empresaRouter from "./routers/empresas.router";
 import pedidoRouter from "./routers/pedidos.router";
+import administradorRouter from "./routers/administrador.routers";
+import motoristaRouter from "./routers/motoristas.routers";
 
 const app:Express = express();
 const PORT = 3000;
@@ -15,6 +17,8 @@ const db:Database = new Database();
 app.use('/usuarios', usuarioRouter);
 app.use('/empresas', empresaRouter);
 app.use('/pedidos', pedidoRouter);
+app.use('/motoristas', motoristaRouter);
+app.use('/administrador', administradorRouter);
 
 app.get('/', (_req: Request, res:Response) =>{
     res.send('Servidor de ParaYa.')
