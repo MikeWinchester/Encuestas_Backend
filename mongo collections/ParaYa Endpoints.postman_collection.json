@@ -1,0 +1,296 @@
+{
+	"info": {
+		"_postman_id": "58e09f91-fbf8-427a-a589-e6d324971fbb",
+		"name": "ParaYa Endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26299343"
+	},
+	"item": [
+		{
+			"name": "Endpoints Usuarios",
+			"item": [
+				{
+					"name": "Registrar usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Miguel\",\r\n    \"apellido\": \"Apelido\",\r\n    \"edad\": 21,\r\n    \"correo\": \"aleminapavon30@gmail.com\",\r\n    \"contrasena\": \"poo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inicio de sesión",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"correo\": \"aleminapavon30@gmail.com\",\r\n    \"contrasena\": \"poo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar pedido a carro de compras",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Pedido 1\",\r\n    \"productos\": \"Prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios/64e67a65c72418fd9510f89b/carro-de-compras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"64e67a65c72418fd9510f89b",
+								"carro-de-compras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener el carro de compras de un usuario",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Endpoints Empresas",
+			"item": [
+				{
+					"name": "Obtener empresas por categoría",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/empresas/postres",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"postres"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener productos de una empresa por categoria",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Enpoints Pedidos",
+			"item": [
+				{
+					"name": "Crear pedido",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Pedido de Pizza Hut\",\r\n    \"cliente\": \"Miguel\",\r\n    \"fecha\": \"25/08/2023\",\r\n    \"hora\": \"8:37\",\r\n    \"productos\": [\r\n        \"Producto 1\",\r\n        \"Producto 2\"\r\n    ],\r\n    \"total\": 199,\r\n    \"direccion\": {\r\n        \"descripcion\": \"Prueba\",\r\n        \"latitud\": \"13\",\r\n        \"longitud\": \"20\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/pedidos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"pedidos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener pedidos en espera",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Endpoints Administrador",
+			"item": [
+				{
+					"name": "Inicio de sesión",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"correo\": \"miguelsanchez@paraya.hn\",\r\n    \"contrasena\": \"poo\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/administrador/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"administrador",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener solicitudes de motoristas",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Aceptar solicitud",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Enpoints Motoristas",
+			"item": [
+				{
+					"name": "Enviar solicitud",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombreCompleto\": \"Miguel Sanchez\",\r\n    \"experiencia\": \"Un pooco\",\r\n    \"correo\": \"prueba@gmail.com\",\r\n    \"edad\": 21,\r\n    \"contrasena\": \"poco\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/motoristas/aplicar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"aplicar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inicio de sesión",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/motoristas/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motoristas",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Aceptar pedido",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

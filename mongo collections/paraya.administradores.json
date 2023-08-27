@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "64ea07598a179869f3442de2"
+  },
+  "nombre": "Miguel",
+  "apellido": "Sánchez",
+  "correo": "miguelsanchez@paraya.hn",
+  "contrasena": "poo",
+  "solicitudes": [
+    {
+      "_id": {
+        "$oid": "64eb3ce120c1ab7cb4fc672e"
+      },
+      "nombreCompleto": "Yeymi",
+      "edad": "27",
+      "contrasena": "jkj",
+      "experiencia": "Tengo mucha experiencia",
+      "correo": "yeymisz321@gmail.com"
+    },
+    {
+      "_id": {
+        "$oid": "64eb3cf520c1ab7cb4fc6733"
+      },
+      "nombreCompleto": "Josué Corrales",
+      "edad": "24",
+      "contrasena": "pop",
+      "experiencia": "Tengo mucha experiencia",
+      "correo": "josue@gmail.com"
+    }
+  ]
+}]

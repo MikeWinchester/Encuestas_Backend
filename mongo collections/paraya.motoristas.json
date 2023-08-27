@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "64eac4573bd7d009c67a8cc3"
+  },
+  "nombreCompleto": "Miguel Alejandro",
+  "edad": 22,
+  "correo": "aleminapavon30@gmail.com",
+  "contrasena": "poo2",
+  "experiencia": "Tengo mucha experiencia",
+  "estado": "Solicitud aceptada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb00dc20c1ab7cb4fc66f8"
+  },
+  "nombreCompleto": "Yeymi Sanchez",
+  "edad": 22,
+  "correo": "yeymi@gmail.com",
+  "contrasena": "jiji",
+  "experiencia": "Tengo un poco de experiencia",
+  "estado": "Solicitud aceptada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb3ce120c1ab7cb4fc672e"
+  },
+  "nombreCompleto": "Yeymi",
+  "edad": 27,
+  "correo": "yeymisz321@gmail.com",
+  "contrasena": "jkj",
+  "experiencia": "Tengo mucha experiencia",
+  "estado": "Solicitud en Proceso.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb3cf520c1ab7cb4fc6733"
+  },
+  "nombreCompleto": "Josué Corrales",
+  "edad": 24,
+  "correo": "josue@gmail.com",
+  "contrasena": "pop",
+  "experiencia": "Tengo mucha experiencia",
+  "estado": "Solicitud en Proceso.",
+  "__v": 0
+}]

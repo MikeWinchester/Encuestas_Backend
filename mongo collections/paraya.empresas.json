@@ -1,0 +1,390 @@
+[{
+  "_id": {
+    "$oid": "64e638ac8a179869f3442d59"
+  },
+  "nombreEmpresa": "Pizza Hut",
+  "logo": "https://upload.wikimedia.org/wikipedia/sco/thumb/d/d2/Pizza_Hut_logo.svg/2177px-Pizza_Hut_logo.svg.png",
+  "descripcion": "Descubre el placer de sabores inolvidables en Pizza Hut. Masa perfecta, ingredientes frescos, momentos memorables. ¡Te esperamos con la mejor pizza!",
+  "productos": [
+    {
+      "nombre": "Suprema",
+      "precio": "179",
+      "imagen": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/SUPREMA.jpg"
+    },
+    {
+      "nombre": "4 Estaciones",
+      "precio": "199",
+      "imagen": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/001.jpg"
+    },
+    {
+      "nombre": "Base de Queso",
+      "precio": "99",
+      "imagen": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/Pbasqueso.png"
+    },
+    {
+      "nombre": "Súper Suprema",
+      "precio": "199",
+      "imagen": "https://www.pizzahutonline.hn/Imagenes/CATEGORIAS/PIZZAS/SUPER%20SUPREMA.jpg"
+    }
+  ],
+  "categoria": "pizza",
+  "puntuacion": "4.7"
+},
+{
+  "_id": {
+    "$oid": "64e642898a179869f3442d5a"
+  },
+  "nombreEmpresa": "Little Caesars",
+  "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/8a2c6796407287.Y3JvcCwxNzA1LDEzMzMsMjg3LDQ1NQ.jpg",
+  "descripcion": "\nDescubre la rapidez y el sabor de Little Caesars: pizzas recién horneadas para disfrutar al instante. ¡Simplemente delicioso y conveniente!",
+  "productos": [
+    {
+      "nombre": "4N1 Stix",
+      "precio": "69",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/4n1_stix_a51a448.png"
+    },
+    {
+      "nombre": "Triple Carne",
+      "precio": "99",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Triple-Carne-cc_1611544923588.png"
+    },
+    {
+      "nombre": "Super Cheese Queso",
+      "precio": "109",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Super-Cheese-Queso-6c_1611545058159.png"
+    },
+    {
+      "nombre": "Super Cheese Jamon",
+      "precio": "109",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Super-Cheese-Jamo%CC%81n-8a_1611545105886.png"
+    }
+  ],
+  "categoria": "pizza",
+  "puntuacion": "4.4"
+},
+{
+  "_id": {
+    "$oid": "64e64c9d8a179869f3442d5b"
+  },
+  "nombreEmpresa": "Domino's Pizza",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/2036px-Domino%27s_pizza_logo.svg.png",
+  "descripcion": "Saborea Domino's Pizza: ingredientes frescos, masa perfecta, entrega rápida. ¡Deliciosamente a tu puerta!",
+  "productos": [
+    {
+      "nombre": "Cheese Pizza",
+      "precio": "129",
+      "imagen": "https://cache.dominos.com/wam/prod/market/HN/_es/images/promo/97bc16ea-be2b-42a0-905f-4744bf84cfdf.jpg"
+    },
+    {
+      "nombre": "Meatzza",
+      "precio": "169",
+      "imagen": "https://cache.dominos.com/wam/prod/market/HN/_es/images/promo/af3772e1-e04d-4f35-b4cb-b6cfc1f072cb.jpg"
+    },
+    {
+      "nombre": "Deluxe",
+      "precio": "149",
+      "imagen": "https://cache.dominos.com/wam/prod/market/HN/_es/images/promo/f61d534b-ac53-4d94-8ed5-ba30c6a3c0e1.jpg"
+    },
+    {
+      "nombre": "Vegetariana",
+      "precio": "119",
+      "imagen": "https://cache.dominos.com/wam/prod/market/HN/_es/images/promo/be99af91-d8a1-47de-9cd1-16d3b0561916.jpg"
+    }
+  ],
+  "categoria": "pizza",
+  "puntuacion": "4.5"
+},
+{
+  "_id": {
+    "$oid": "64e64dc58a179869f3442d5c"
+  },
+  "nombreEmpresa": "Papa John's",
+  "logo": "https://1000logos.net/wp-content/uploads/2023/04/Papa-Johns-Logo-1994.png",
+  "descripcion": "Descubre Papa John's: Sabor inigualable con ingredientes frescos, masa excepcional y entrega rápida que te brinda una experiencia deliciosa directamente a tu puerta. ¡Una elección de sabor y comodidad!",
+  "productos": [
+    {
+      "nombre": "Papas Favorite",
+      "precio": "189",
+      "imagen": "https://s3-eu-central-1.amazonaws.com/pj-hn-demo.menu.app/wp-media-folder-pjs-honduras//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/33/pj-prod-img-pizza-papas-favourite.jpg"
+    },
+    {
+      "nombre": "The Works",
+      "precio": "179",
+      "imagen": "https://s3-eu-central-1.amazonaws.com/pj-hn-demo.menu.app/wp-media-folder-pjs-honduras//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/33/pj-prod-img-pizza-the-works-1.jpg"
+    },
+    {
+      "nombre": "Súper Pepperoni",
+      "precio": "159",
+      "imagen": "https://s3-eu-central-1.amazonaws.com/pj-hn-demo.menu.app/wp-media-folder-papa-johns-honduras//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/33/pj-prod-img-pizza-super-pepperoni.png"
+    },
+    {
+      "nombre": "Tejana",
+      "precio": "199",
+      "imagen": "https://www.papajohnsegypt.com/images/Products/Hot-Spicy.jpg"
+    }
+  ],
+  "categoria": "pizza",
+  "puntuacion": "4.2"
+},
+{
+  "_id": {
+    "$oid": "64e64f638a179869f3442d5d"
+  },
+  "nombreEmpresa": "Toto's Pizza",
+  "logo": "https://totospizzahn.com/wp-content/uploads/2017/02/ICONO-2.png",
+  "descripcion": "Toto's Pizza: Sabor auténtico en cada bocado. Ingredientes de calidad que hacen la diferencia. ¡Descúbrelo ahora!",
+  "productos": [
+    {
+      "nombre": "Toto's Especial #1",
+      "precio": "149",
+      "imagen": "https://fastly.4sqi.net/img/general/600x600/66189220_X7e12kM8lyR7xEAqwX8NSusmGWbeDHZOSdzHH34oDtM.jpg"
+    },
+    {
+      "nombre": "Toto's Especial # 2",
+      "precio": "149",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqQVO80fb8zU_6xBaiizIU1tVS0OnulxP50NBCGXf85UPJyK-3LGVSFiMUnEP436_m24&usqp=CAU"
+    },
+    {
+      "imagen": "https://fastly.4sqi.net/img/general/600x600/66189220_X7e12kM8lyR7xEAqwX8NSusmGWbeDHZOSdzHH34oDtM.jpg",
+      "nombre": "Toto's Especial # 3",
+      "precio": "159"
+    },
+    {
+      "nombre": "Toto's Especial # 4",
+      "precio": "169",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoSMgEwGOf5qv8wbthPpjPgiGGdgJY3G1fOPnepTRjPW1qQ1uHPUNkm3_TTI_eX7fmw54&usqp=CAU"
+    }
+  ],
+  "categoria": "pizza",
+  "puntuacion": "4.0"
+},
+{
+  "_id": {
+    "$oid": "64e652568a179869f3442d5e"
+  },
+  "nombreEmpresa": "Donato's Pizza",
+  "logo": "https://www.cdnlogo.com/logos/d/5/donatos-pizza-2.svg",
+  "descripcion": "Donato's Pizza: Sabor que destaca. Cada rebanada es un festín de ingredientes selectos y auténtico sabor. Una experiencia única en cada bocado. ¡Prueba Donato's hoy mismo!",
+  "productos": [
+    {
+      "nombre": "Pepperoni",
+      "precio": "109",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Super-Cheese-Pepperoni-db_1611545081676.png"
+    },
+    {
+      "nombre": "Pickle Special",
+      "precio": "139",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/VeggiePizza-fe_1611586219625.png"
+    },
+    {
+      "nombre": "All in 1",
+      "precio": "149",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Super-Cheese-Ultimate-Deluxe-3d_1611545132551.png"
+    },
+    {
+      "nombre": "Hawaiian",
+      "imagen": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/Pizza-Hula-Hawaian-54_1611544977393.png",
+      "precio": "129"
+    }
+  ],
+  "categoria": "pizza",
+  "puntuacion": "4.1"
+},
+{
+  "_id": {
+    "$oid": "64e655e18a179869f3442d5f"
+  },
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/McDonald%27s_SVG_logo.svg/2095px-McDonald%27s_SVG_logo.svg.png",
+  "descripcion": "McDonald's: Sabor icónico y variedad excepcional. Tu satisfacción, nuestro compromiso. ¡Te esperamos con delicias inigualables!",
+  "productos": [],
+  "categoria": "hamburguesas",
+  "nombreEmpresa": "McDonald's",
+  "puntuacion": "4.6"
+},
+{
+  "_id": {
+    "$oid": "64e657b28a179869f3442d60"
+  },
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Burger_King_logo_%281999%29.svg/2024px-Burger_King_logo_%281999%29.svg.png",
+  "descripcion": "Burger King: Sabor auténtico y opciones excepcionales. Cada visita es una experiencia de satisfacción única. ¡Disfruta del rey de las hamburguesas hoy mismo!",
+  "productos": [],
+  "categoria": "hamburguesas",
+  "nombreEmpresa": "Burger King",
+  "puntuacion": "4.7"
+},
+{
+  "_id": {
+    "$oid": "64e657b78a179869f3442d61"
+  },
+  "logo": "https://seeklogo.com/images/W/wendy-s-logo-096F726321-seeklogo.com.png",
+  "descripcion": "Wendy's: Sabor genuino y selección excepcional. Cada visita es una aventura culinaria única. ¡Ven y descubre el sabor de Wendy's hoy mismo!",
+  "productos": [],
+  "categoria": "hamburguesas",
+  "nombreEmpresa": "Wendy's",
+  "puntuacion": "4.4"
+},
+{
+  "_id": {
+    "$oid": "64e657bf8a179869f3442d62"
+  },
+  "logo": "https://www.franquician.com/uploads/1/2/6/5/126591669/22519265-1804028956292585-4078334331963307738-n_orig.jpg",
+  "descripcion": "Sumérgete en la fusión perfecta de tradición e innovación en Bigo's. Sabores inolvidables, ambiente encantador. Tu experiencia gastronómica única te espera.",
+  "productos": [],
+  "categoria": "hamburguesas",
+  "nombreEmpresa": "Bigos",
+  "puntuacion": "4.6"
+},
+{
+  "_id": {
+    "$oid": "64e657c48a179869f3442d63"
+  },
+  "logo": "data:image/png;base64,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",
+  "descripcion": "MrBeast Burger: Sabor extraordinario y creatividad en cada bocado. Cada hamburguesa es una experiencia única y deliciosa. ¡Descubre el sabor de MrBeast Burger ahora mismo!",
+  "productos": [],
+  "categoria": "hamburguesas",
+  "nombreEmpresa": "MrBeast Burger",
+  "puntuacion": "4.9"
+},
+{
+  "_id": {
+    "$oid": "64e657d08a179869f3442d64"
+  },
+  "logo": "https://www.dafont.com/forum/attach/orig/1/0/1057588.png?1",
+  "descripcion": "Fasfú Burgers: Innovación y sabor en cada hamburguesa. Cada mordisco es una fusión única de ingredientes deliciosos. ¡Embárcate en una experiencia culinaria en Fasfú Burgers hoy mismo",
+  "productos": [],
+  "categoria": "hamburguesas",
+  "nombreEmpresa": "Fasfú Burgers",
+  "puntuacion": "4.4"
+},
+{
+  "_id": {
+    "$oid": "64e664ec8a179869f3442d65"
+  },
+  "logo": "https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/2048px-KFC_logo.svg.png",
+  "descripcion": "KFC: Sabor legendario en cada pieza. Nuestra especialidad en pollo y sabrosas opciones te brindan una experiencia culinaria única. Deléitate con el sabor inconfundible de KFC en cada visita.",
+  "productos": [],
+  "categoria": "pollo",
+  "nombreEmpresa": "KFC",
+  "puntuacion": "4.2"
+},
+{
+  "_id": {
+    "$oid": "64e664f48a179869f3442d66"
+  },
+  "logo": "https://1000marcas.net/wp-content/uploads/2021/05/Popeyes-logo.png",
+  "descripcion": "Popeyes: Sabor audaz en cada bocado. Nuestro pollo crujiente y sabrosas opciones te ofrecen una experiencia culinaria inigualable. Disfruta del sabor distintivo de Popeyes en cada comida",
+  "productos": [],
+  "categoria": "pollo",
+  "nombreEmpresa": "Popeyes",
+  "puntuacion": "4.8"
+},
+{
+  "_id": {
+    "$oid": "64e664fc8a179869f3442d67"
+  },
+  "logo": "https://cdn.freebiesupply.com/logos/large/2x/churchs-chicken-logo-png-transparent.png",
+  "descripcion": "Church's Chicken: Sabor auténtico en cada bocado. Pollo crujiente y delicioso que te sorprenderá. ¡Ven y prueba la diferencia!",
+  "productos": [],
+  "categoria": "pollo",
+  "nombreEmpresa": "Church's Chicken",
+  "puntuacion": "4.8"
+},
+{
+  "_id": {
+    "$oid": "64e665018a179869f3442d68"
+  },
+  "logo": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8021e914877581.5628a153f265d.jpg",
+  "descripcion": "Pollo Campero: Sabor auténtico en cada bocado. ¡Descubre la diferencia!",
+  "productos": [],
+  "categoria": "pollo",
+  "nombreEmpresa": "Pollo Campero",
+  "puntuacion": "4.5"
+},
+{
+  "_id": {
+    "$oid": "64e6650d8a179869f3442d69"
+  },
+  "logo": "https://pollolandia.com/gt/templates/pollolandia/images/Pollolandia_Bienvenida.png",
+  "descripcion": "Pollolandia: Sabor casero en cada platillo. Nuestro pollo y opciones sabrosas te ofrecen una experiencia culinaria única. Disfruta de la auténtica sazón de Pollolandia en cada visita.",
+  "productos": [],
+  "categoria": "pollo",
+  "nombreEmpresa": "Pollolandia",
+  "puntuacion": "4.3"
+},
+{
+  "_id": {
+    "$oid": "64e665128a179869f3442d6a"
+  },
+  "logo": "https://isteam.wsimg.com/ip/3943363f-8c88-403b-83b0-f8d968f49290/65b97d37-c9f7-4b9d-bdd0-e6bdbdc2eb28.gif/:/cr=t:0%25,l:0%25,w:100%25,h:70.9%25/rs=w:388,h:194,cg:true",
+  "descripcion": "Winspot: Sabor excepcional en cada elección. Nuestra variedad de opciones sabrosas te brindan una experiencia culinaria única. Descubre la delicia de Winspot en cada visita.",
+  "productos": [],
+  "categoria": "pollo",
+  "nombreEmpresa": "Winspot",
+  "puntuacion": "4.4"
+},
+{
+  "_id": {
+    "$oid": "64e66c398a179869f3442d6d"
+  },
+  "logo": "https://seeklogo.com/images/D/dunkin-donuts-logo-1E269BA8F1-seeklogo.com.png",
+  "descripcion": "Dunkin' Donuts: Sabor irresistible en cada bocado. Nuestros donuts frescos y café excepcional te ofrecen una experiencia de sabores únicos. Disfruta de la dulzura de Dunkin' Donuts en cada momento.",
+  "productos": [],
+  "categoria": "postres",
+  "nombreEmpresa": "Dunkin' Donuts",
+  "puntuacion": "4.5"
+},
+{
+  "_id": {
+    "$oid": "64e66c3f8a179869f3442d6e"
+  },
+  "logo": "https://uspto.report/TM/77270888/mark.png",
+  "descripcion": "Espresso Americano: Intenso sabor en cada sorbo. Nuestro espresso cuidadosamente preparado te brinda una experiencia de café excepcional. Disfruta del aroma y la autenticidad del espresso americano en cada taza",
+  "productos": [],
+  "categoria": "postres",
+  "nombreEmpresa": "Espresso Americano",
+  "puntuacion": "4.4"
+},
+{
+  "_id": {
+    "$oid": "64e66c438a179869f3442d6f"
+  },
+  "logo": "https://www.dafont.com/forum/attach/orig/7/7/775874.jpg?1",
+  "descripcion": "Sarita: Dulzura en cada cucharada. Nuestros helados artesanales y sabores únicos te brindan una experiencia refrescante. Disfruta de la auténtica delicia de los helados Sarita en cada momento.",
+  "productos": [],
+  "categoria": "postres",
+  "nombreEmpresa": "Sarita",
+  "puntuacion": "4.2"
+},
+{
+  "_id": {
+    "$oid": "64e66c528a179869f3442d70"
+  },
+  "logo": "https://www.tri-facil.com/admin/images/contenidos/empresas/promociones/qgy4nSmz1mmn95DZLM5x.png",
+  "descripcion": "Wafflos: Delicia en cada mordisco. Nuestros waffles frescos y creativos te ofrecen una experiencia única. Disfruta de la combinación perfecta de sabor y textura en cada bocado con Wafflos.",
+  "productos": [],
+  "categoria": "postres",
+  "nombreEmpresa": "Wafflos",
+  "puntuacion": "4.1"
+},
+{
+  "_id": {
+    "$oid": "64e66c578a179869f3442d71"
+  },
+  "logo": "https://static.wixstatic.com/media/e99e18_27a707ef1d6d4d37ae8ff1868afc71ae~mv2.png/v1/fit/w_2500,h_1330,al_c/e99e18_27a707ef1d6d4d37ae8ff1868afc71ae~mv2.png",
+  "descripcion": "Nicolati's: Crepas que cautivan el paladar. Nuestra variedad de creaciones dulces y saladas te brindan una experiencia culinaria excepcional. Disfruta de la maestría en cada crepa con Nicolati's",
+  "productos": [],
+  "categoria": "postres",
+  "nombreEmpresa": "Nicolati's",
+  "puntuacion": "4.2"
+},
+{
+  "_id": {
+    "$oid": "64e66c968a179869f3442d72"
+  },
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/800px-Starbucks_Corporation_Logo_2011.svg.png",
+  "descripcion": "Starbucks: Sabor incomparable en cada sorbo. Nuestro café premium y bebidas únicas te ofrecen una experiencia aromática y reconfortante. Disfruta del inconfundible toque de Starbucks en cada taza.",
+  "productos": [],
+  "categoria": "postres",
+  "nombreEmpresa": "Starbucks",
+  "puntuacion": "4.6"
+}]

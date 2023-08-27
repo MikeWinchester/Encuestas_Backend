@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "64e9c1c1853e78c685424429"
+  },
+  "nombre": "Yeymi",
+  "apellido": "Sánchez",
+  "edad": 17,
+  "correo": "yeymisz321@gmail.com",
+  "contrasena": "poo",
+  "carroDeCompras": [],
+  "__v": 0,
+  "pedidosEspera": [
+    {
+      "_id": {
+        "$oid": "64eaf1b716071244f4f8cf74"
+      },
+      "nombrePedido": "Pedido de Pizza Hut",
+      "fecha": "20/08/2023",
+      "hora": "00:47:51",
+      "productos": [
+        "4 Estaciones (3): L.597",
+        "Base de Queso (2): L.198"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64eafc2020c1ab7cb4fc66cb"
+  },
+  "nombre": "Miguel",
+  "apellido": "Sánchez",
+  "edad": 21,
+  "correo": "aleminapavon30@gmail.com",
+  "contrasena": "poo",
+  "carroDeCompras": [],
+  "pedidosEspera": [
+    {
+      "_id": {
+        "$oid": "64eafd8c20c1ab7cb4fc66d9"
+      },
+      "nombrePedido": "Pedido de Pizza Hut",
+      "fecha": "20/08/2023",
+      "hora": "01:34:56",
+      "productos": [
+        "Suprema (3): L.537",
+        "4 Estaciones (1): L.199",
+        "Súper Suprema (3): L.597"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "64eb384d20c1ab7cb4fc6719"
+      },
+      "nombrePedido": "Pedido de Pizza Hut",
+      "fecha": "20/08/2023",
+      "hora": "05:44:46",
+      "productos": [
+        "4 Estaciones (1): L.199",
+        "Base de Queso (1): L.99"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "64eb386720c1ab7cb4fc6724"
+      },
+      "nombrePedido": "Pedido de Little Caesars",
+      "fecha": "20/08/2023",
+      "hora": "05:49:47",
+      "productos": [
+        "Triple Carne (1): L.99"
+      ]
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eafef820c1ab7cb4fc66e5"
+  },
+  "nombre": "Josué",
+  "apellido": "Campos",
+  "edad": 22,
+  "correo": "josue@gmail.com",
+  "contrasena": "poo",
+  "carroDeCompras": [],
+  "pedidosEspera": [
+    {
+      "_id": {
+        "$oid": "64eb009620c1ab7cb4fc66f3"
+      },
+      "nombrePedido": "Pedido de Pizza Hut",
+      "fecha": "20/08/2023",
+      "hora": "01:47:16",
+      "productos": [
+        "4 Estaciones (3): L.597",
+        "Base de Queso (1): L.99",
+        "Súper Suprema (2): L.398"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "64eb014b20c1ab7cb4fc6709"
+      },
+      "nombrePedido": "Pedido de Little Caesars",
+      "fecha": "20/08/2023",
+      "hora": "01:54:32",
+      "productos": [
+        "Triple Carne (2): L.198",
+        "Super Cheese Queso (1): L.109",
+        "Super Cheese Jamon (3): L.327"
+      ]
+    }
+  ],
+  "__v": 0
+}]
